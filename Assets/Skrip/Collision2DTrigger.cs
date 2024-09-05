@@ -42,19 +42,19 @@ public class Collision2DTrigger : MonoBehaviour
         }
     }
 
-    void OnTriggerStay2D(Collider2D collider)
-    {
-        if (collider.transform.CompareTag(Tag))
-        {
-            OnTriggerStayEvent.Invoke();
-        }
-    }
+    //void OnTriggerStay2D(Collider2D collider)
+    //{
+    //    if (collider.transform.CompareTag(Tag))
+    //    {
+    //        OnTriggerStayEvent.Invoke();
+    //    }
+    //}
 
-    void OnTriggerExit2D(Collider2D collider)
-    {
-        if (collider.transform.CompareTag(Tag))
-        {
-            OnTriggerExitEvent.Invoke();
-        }
-    }
+    //void OnTriggerExit2D(Collider2D collider)
+    //{
+    //    if (collider.transform.CompareTag(Tag))
+    //    {
+    //        OnTriggerExitEvent.Invoke();
+    //    }
+    //}
 }
